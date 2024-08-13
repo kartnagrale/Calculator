@@ -130,3 +130,48 @@ button:hover {
     background-color: #ecf0f1;
     border-radius: 10px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .calculator {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .history {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .calculator {
+        padding: 15px;
+    }
+
+    #display {
+        height: 50px;
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .history h2 {
+        font-size: 24px;
+    }
+
+    .history li {
+        font-size: 18px;
+    }
+}
